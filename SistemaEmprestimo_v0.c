@@ -7,7 +7,7 @@
                       Paulo Otávio Godio
                       Vitor Lohan Brito Teixeira
 
-    Versão Atual: (1.0.0)
+    Versão Atual: (1.0.1)
            Mudanças:
                - Adicionado sistema de requisição de dados dos clientes
 
@@ -90,9 +90,8 @@ int main()
     //valorParcela =  (valorEmprestimo/numParcelas)*(1+jurosParcelas);
     valorParcela = (jurosParcelas*valorEmprestimo)/(1- pow(1+jurosParcelas, -numParcelas));
 
-    printf("\tDADOS ARMAZENADOS\n");
     /*mostra as informações armazenadas ao usuario*/
-    /*
+
     printf("\nDADOS REGISTRADOS\n\n");
 
     printf("Nome do Cliente\n");
@@ -125,7 +124,7 @@ int main()
 
     printf("Valor da parcela\n");
     printf("\tRS %.2f\n", valorParcela);
-    */
+
 
     getch();
 
