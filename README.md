@@ -9,3 +9,9 @@ Versão (1.0.1):
 Versão (1.1.0):
 	Foram adicionada novas funcionalidades, tais como:                                                             
 	Incluir condicionais aninhados para indicar a situação do cliente no empréstimo (aprovado, aprovado após análise, reprovado). Se o valor da parcela mensal for menor/igual a 10% da renda mensal (nova informação solicitada) então o empréstimo está aprovado. Se o valor da parcela mensal for maior do que 30% da renda mensal então o empréstimo está reprovado. Se o valor da parcela mensal, for maior do que 10% e menor/igual a 30% então verifica se o cliente tem imóvel próprio quitado (nova informação solicitada) e nenhum empréstimo anterior em aberto (nova informação solicitada). Se sim então o empréstimo está aprovado após análise. Se não, o empréstimo está reprovado após análise.  Um empréstimo está quitado quando a quantidade de parcelas do empréstimo é igual a quantidade de parcelas pagas (assim, ao solicitar se há empréstimo anterior em aberto deve-se solicitar as duas quantidades de parcelas envolvidas e realizar o cálculo necessário). 
+
+Versão (1.2.0):
+	Em construção...
+
+Versão (1.2.1):
+	Em construção...
